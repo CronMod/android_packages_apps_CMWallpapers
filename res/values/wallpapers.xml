@@ -17,18 +17,26 @@
 
 <resources>
     <string-array name="wallpapers" translatable="false">
+        <item>wallpaper_androidglass</item>
         <item>wallpaper_androidhandprint</item>
         <item>wallpaper_angrybirds</item>
+        <item>wallpaper_cautionzombies</item>
         <item>wallpaper_cookiemonster</item>
         <item>wallpaper_darkics</item>
+        <item>wallpaper_lightning</item>
+        <item>wallpaper_lights</item>
         <item>wallpaper_trondroids</item>
     </string-array>
 
     <string-array name="info" translatable="false">
-        <item>Android Hand Print :: Rightful Creator</item>
-        <item>Angry Birds :: Rightful Creator</item>
-        <item>Cookie Monster :: Rightful Creator</item>
-        <item>Dark ICS :: Rightful Creator</item>
-        <item>Tron Droids :: Rightful Creator</item>
+        <item>Android Glass</item>
+        <item>Android Hand Print</item>
+        <item>Angry Birds</item>
+        <item>Caution Zombies</item>
+        <item>Cookie Monster</item>
+        <item>Dark ICS</item>
+        <item>Lightning</item>
+        <item>Lights</item>
+        <item>Tron Droids</item>
     </string-array>
 </resources>
