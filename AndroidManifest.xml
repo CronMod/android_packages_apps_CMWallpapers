@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.cronmod.CMWallpapers">
+      package="com.cyanogenmod.CMWallpapers">
 
       <uses-permission android:name="android.permission.SET_WALLPAPER" />
 
-    <application android:label="@string/app_name" android:icon="@drawable/cm_icon">
+    <application android:label="@string/app_name" android:icon="@drawable/cyanogenmod_icon">
         <activity
             android:name="wallpaper"
             android:label="@string/app_label"
-            android:icon="@drawable/cm_icon"
+            android:icon="@drawable/cyanogenmod_icon"
             android:screenOrientation="nosensor"
             android:finishOnCloseSystemDialogs="true">
             <intent-filter>
@@ -19,8 +19,7 @@
 
         <activity
             android:name="NoWallpaper"
-            android:label="@string/no_wallpaper"
-            android:icon="@drawable/nowallpaper_icon" >
+            android:label="@string/no_wallpaper" >
             <intent-filter>
                 <action android:name="android.intent.action.SET_WALLPAPER" />
                 <category android:name="android.intent.category.DEFAULT" />
